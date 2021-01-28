@@ -1,6 +1,6 @@
 <%-- 
     Document   : age
-    Created on : Jan 27, 2021, 10:13:25 AM
+    Created on : Jan 27, 2021, 7:48:07 PM
     Author     : 827637
 --%>
 
@@ -9,13 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Age Calculator</title>
+        <title>Age  Calculator</title>
     </head>
     <body>
         <h1>Age Calculator</h1>
         <div>
             <form action="age" method="get">
-                Enter your  age: <input type="text" name="ageBox"><br>
+                Enter your current age: <input type="text" name="ageBox">
                 <input type="submit" value="Age Next Birthday">
                 Your age next birthday will be {$age}
             </form>
